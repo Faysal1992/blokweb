@@ -1,0 +1,192 @@
+/* CSS Document */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arial";
+
+}
+
+/* Bovenste navigatie */
+
+#topbar {
+    display: flex;
+    height: 3.1em;
+    width: 100%;
+    border-bottom: 1px solid gray;
+    padding-bottom: 0.2em;
+}
+
+/*nu.nl text*/
+#topbar a:nth-of-type(2) {
+    padding-top: 1em;
+    color: rgb(7, 11, 61);
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 0.5em;
+}
+
+#topbar a:nth-of-type(2) {
+    margin-right: auto;
+}
+
+#topbar img:nth-of-type(1) {
+    height: 3em;
+}
+
+#topbar img:hover {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*navigatie onder de bovenkant */
+
+#topNav {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0.0em 0.1em 0.2em 0px rgba(0, 0, 0, 0.75);
+    padding: 1em;
+    margin: 0;
+}
+
+#topNav a {
+    color: gray;
+    font-size: 90%
+}
+
+/*box met reclame*/
+
+section:first-of-type {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+}
+
+section:first-of-type div {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+section:first-of-type div:nth-of-type(2) {
+    margin-top: -0.1%;
+}
+
+section:first-of-type div:nth-of-type(2) img {
+    height: 3.1em;
+
+}
+
+section:first-of-type div:hover {
+    border: 1px solid black;
+    border-radius: 2em;
+}
+
+/*Algemeen nieuws*/
+
+/* Bovenste nieuwsbericht */
+
+#eersteRecent {
+    position: relative;
+}
+
+#eersteRecent a:nth-of-type(2) {
+    position: absolute;
+    left: 0.5em;
+    bottom: 0.5em;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.algemeen a:nth-of-type(2) {
+    color: rgb(7, 11, 61);
+}
+
+
+#eersteRecent img {
+    width: 100%;
+    border-radius: 2em;
+}
+
+/*berichten onder het eerste bericht*/
+/*Hier hulp bij vragen */
+
+.algemeen ul {
+    position: relative;
+    margin: 0.5em;
+    padding-left: 0em;
+}
+
+.algemeen li {
+    display: flex;
+}
+
+.algemeen li {
+    display: flex;
+}
+
+.algemeen li img {
+    padding-bottom: 0.5em;
+    border-radius: 2em;
+    width: 50%;
+}
+
+/* Meer algemeen knop */
+
+#meerAlgemeen {
+    display: block;
+    text-align: center;
+    margin-top: 1em;
+}
+
+#meerAlgemeen a {
+    color: rgb(7, 11, 61);
+}
+
+/* Op de hoogte worden gebracht/notificatie gedeelte*/
+
+.updates {
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 1px gray;
+}
+
+.updates img {
+    width: 10%;
+}
+
+.updates h3 {
+    font-size: 90%;
+    padding-left: 2%;
+}
+
+.updates p {
+    padding-left: 11%;
+}
+
+.updates button
+}
+
+
+/*Nav bottom*/
+footer {
+    position: relative;
+}
+
+#footerNav {}
+
+aside ul li a {
+    text-decoration: none;
+    color: rgb(7, 11, 61);
+}
