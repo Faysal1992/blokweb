@@ -165,9 +165,12 @@ section:first-of-type div:hover {
 /* Op de hoogte worden gebracht/notificatie gedeelte*/
 
 .updates {
-    display: flex;
-    flex-wrap: wrap;
     border: solid 1px gray;
+}
+
+.updateHeader{ 
+display: flex;
+flex-wrap: wrap;
 }
 
 .updates img {
@@ -177,13 +180,43 @@ section:first-of-type div:hover {
 .updates h3 {
     font-size: 90%;
     padding-left: 2%;
+    align-self: center;
 }
 
 .updates p {
     padding-left: 11%;
 }
 
-.updates button
+.updateButtons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-end;
+    padding-right: 1em;
+    padding-bottom: 1em;
+}
+.updateButtons button:nth-of-type(2){
+    margin-left: 1em;
+    color:white;
+    background-color: rgb(7, 11, 61);
+    border-radius: 1em;
+    padding: 0.5em;
+    font-weight: bold;
+}
+.updateButtons button:nth-of-type(1){
+    color: rgb(7, 11, 61);
+    background-color:white;
+    
+  background: transparent;
+  box-shadow: 0px 0px 0px transparent;
+  border: 0px solid transparent;
+  text-shadow: 0px 0px 0px transparent;
+}
+.updateButtons button:hover {
+    cursor: pointer;
+}
+
+
+    
 }
 
 
