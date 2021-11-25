@@ -58,7 +58,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Je startniveau:** Blauw
 
-**Je focus:** surface plane
+**Je focus:** Fully responsive
 
 **Je opdracht:** -www.nu.nl-
 
