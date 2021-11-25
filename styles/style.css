@@ -22,7 +22,7 @@ body {
 
 /*nu.nl text*/
 #topbar a:nth-of-type(2) {
-    padding-top: 1em;
+    padding-top: %;
     color: rgb(7, 11, 61);
     font-weight: bold;
     text-decoration: none;
@@ -45,7 +45,7 @@ a {
     text-decoration: none;
 }
 
-/*navigatie onder de bovenkant */
+/*navigatie onder de bovenkant (voorpagina,net binnen,populair,meer)*/
 
 #topNav {
     display: flex;
@@ -128,18 +128,25 @@ section:first-of-type div:hover {
     padding-left: 0em;
 }
 
-.algemeen li {
-    display: flex;
-}
-
-.algemeen li {
+.algemeen ul li {
     display: flex;
 }
 
 .algemeen li img {
     padding-bottom: 0.5em;
     border-radius: 2em;
+    width: 40%;
+}
+#subitems {
     width: 50%;
+}
+
+#subitems img{
+    width: 100%;
+}
+.algemeen li a {
+    align-self:center;
+    padding-left: 1em;
 }
 
 /* Meer algemeen knop */
