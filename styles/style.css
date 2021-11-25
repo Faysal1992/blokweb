@@ -124,7 +124,7 @@ section:first-of-type div:hover {
 
 .algemeen ul {
     position: relative;
-    margin: 0.5em;
+    margin-top: 0.5em;
     padding-left: 0em;
 }
 
@@ -144,9 +144,10 @@ section:first-of-type div:hover {
 #subitems img{
     width: 100%;
 }
-.algemeen li a {
+.algemeen li a:nth-of-type(2) {
     align-self:center;
     padding-left: 1em;
+    margin-right:0.5em;
 }
 
 /* Meer algemeen knop */
